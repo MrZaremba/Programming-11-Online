@@ -1,19 +1,51 @@
 import java.util.Scanner;
+
+
+
+/* Not sure why but tests wont be detected unless the 'TestClass' file is run. I'm unsure if thats just because
+   I imported it to MacOS or not.
+ */
+
+
 public class Main {
-    //Code your solution to problem number one here
     static int problemOne(String s){
-        //TODO
-        return -1;
+        //TODO:
+        int counter = 0;
+        for (int i =0; i<s.length(); i++){
+            char character = s.charAt(i);
+            if (character == 'a' || character == 'e'|| character== 'i'|| character=='o'||character =='u'){
+                counter += 1;
+            }
+        }
+        //System.out.println(counter);
+        return counter;
     }
-    //Code you problem number two here
     static int problemTwo(String s){
-        //TODO
-        return -1;
+        int counter = 0;
+        for (int i =0; i < s.length()-2; i++){
+            if (s.charAt(i) == 'b' && s.charAt(i+1) == 'o' && s.charAt(i+2) == 'b') {
+                counter += 1;
+            }
+        }
+        return counter;
     }
-    //Code your solution to problem number 3 here
+
     static String problemThree(String s){
-        //TODO
-        return "";
+        int max_size = 0;
+        int match_start = 0;
+        for (int i = 0; i < s.length() - 1; i++) {
+            for (int j = i + 1; j < s.length(); j++) {
+                int match_size = j - i;
+                if (s.charAt(j) < s.charAt(j - 1)) {
+                    if (match_size > max_size) {
+                        max_size = match_size;
+                        match_start = i;
+                    }
+                    break;
+                }
+            }
+        }
+        return s.substring(match_start, match_start + max_size);
     }
     public static void main(String[] args) {
         /*
@@ -23,7 +55,9 @@ public class Main {
         The tests will put your method through several different Strings to test
         all possible cases.  If you have 100% success then there is no bugs in your methods.
          */
-        problemOne("iueuaondjmhoiuxj");
-
+        String s = "iueuaondjmhoiuxj";
+        System.out.println(problemOne(s));
+        System.out.println(problemTwo(s));
+        System.out.println(problemThree(s));
     }
 }

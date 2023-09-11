@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3486de79-0aaf-48b5-ba1d-f6236915dcf4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Expressions Assignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Expressions Assignment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjectNumber1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectNumber1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectNumber1/StringTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectNumber1/StringTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectNumber1/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectNumber1/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/ProjectNumber1/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/ProjectNumber1/TestClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +44,9 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-300" />
@@ -85,26 +91,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.JavaDocs" value="true" />
-    <property name="Repository.Attach.Sources" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570052627307" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RunManager" selected="JUnit.TestClass.testOne">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/pzaremba/Downloads/CP11Project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.TestClass">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -198,9 +197,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestClass.testOne" />
         <item itemvalue="JUnit.TestClass" />
         <item itemvalue="JUnit.TestClass.testThree" />
+        <item itemvalue="JUnit.TestClass.testOne" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestClass.testTwo" />
       </list>
@@ -256,6 +255,18 @@
       <workItem from="1644878577070" duration="1136000" />
       <workItem from="1644950465002" duration="34000" />
       <workItem from="1645726413952" duration="325000" />
+      <workItem from="1681412664362" duration="3715000" />
+      <workItem from="1681490818350" duration="1050000" />
+      <workItem from="1681751589361" duration="53000" />
+      <workItem from="1681835684572" duration="145000" />
+      <workItem from="1681836825511" duration="1143000" />
+      <workItem from="1681933354736" duration="635000" />
+      <workItem from="1682615321549" duration="108000" />
+      <workItem from="1683822987975" duration="1252000" />
+      <workItem from="1689797316085" duration="492000" />
+      <workItem from="1690477237004" duration="1140000" />
+      <workItem from="1690478930608" duration="595000" />
+      <workItem from="1690487035725" duration="68000" />
     </task>
     <task id="LOCAL-00001" summary="zxcv">
       <created>1638224526884</created>
